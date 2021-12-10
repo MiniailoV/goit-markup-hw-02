@@ -1,4 +1,115 @@
+/*Палитра основных цветов из макета
+#2196F3 - Голубой цвет (текст)
+#FFFFFF - белый текст
+#212121 - черный текст 
+#757575 - серый текст
+#F5F4FA - background our team
+#2F303A - background footer and HEROES*/
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+/*палитра вторичных цветов в т.ч. с прозрачностью
+В макете не найдено*/
+
+/* Эффекты */
+/* Drop Shadow 
+/* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); - для кнопки*/
+
+body {
+  background-color: #fff;
+  color: #212121;
+  font-family: Roboto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* ul {
+  list-style: none;
+}*/
+/* a {
+  text-decoration: none;
+} */
+/* Var 2 Логотипа a[class='logo'] {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+/* letter-spacing: 0.03em;
+  text-decoration: none;
+} */
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+/*Var 2 оформления 
+.logo > .web-logo {
+  color: #2196f3;
+}
+.logo > .studio-logo {
+  color: #000000;
+} */
+
+.web-logo {
+  color: #2196f3;
+}
+.studio-logo {
+  color: #000000;
+}
+
+/*HEADER*/
+
+/*SITE NAV*/
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.contacts .link {
+  color: #757575;
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: #2196f3;
+}
+
+/*HERO*/
+.hero {
+  background-color: #2f303a;
+}
+
+.hero .hero-title {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/*SECTIONS*/
+.hide {
+  display: none;
+}
+.section-title {
+  color: #212121;
+}
+/*TEAM*/
+.section-team {
+  background-color: #f5f4fa;
+}
