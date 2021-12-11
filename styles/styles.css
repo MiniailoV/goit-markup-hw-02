@@ -13,9 +13,19 @@
 /* Drop Shadow 
 /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); - для кнопки*/
 
+/* CSS-colors: переменные */
+:root {
+  --black-font-color: #212121;
+  --blue-color: #2196f3;
+  --white-color: #ffffff;
+  --grey-color: #757575;
+  --bcg-ourteam-color: #f5f4fa;
+  --bcg-footer-heroes-color: #2f303a;
+}
+
 body {
-  background-color: #fff;
-  color: #212121;
+  background-color: var(--white-color);
+  color: var(--black-font-color-color);
   font-family: Roboto;
 }
 
@@ -60,37 +70,37 @@ a {
 } */
 
 .web-logo {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .studio-logo {
-  color: #000000;
+  color: var(--black-font-color);
 }
 
 /*HEADER*/
 
 /*SITE NAV*/
 .site-nav .link {
-  color: #212121;
+  color: var(--black-font-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .contacts .link {
   color: #757575;
 }
 .contacts .link:hover,
 .contacts .link:focus {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 
 /*HERO*/
 .hero {
-  background-color: #2f303a;
+  background-color: var(--bcg-footer-heroes-color);
 }
 
 .hero .hero-title {
-  color: #ffffff;
+  color: var(--white-color);
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
@@ -107,9 +117,9 @@ a {
   display: none;
 }
 .section-title {
-  color: #212121;
+  color: var(--black-font-color);
 }
 /*TEAM*/
 .section-team {
-  background-color: #f5f4fa;
+  background-color: var(--bcg-ourteam-color);
 }
