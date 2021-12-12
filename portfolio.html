@@ -8,14 +8,7 @@
     <link href="./styles/styles.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
 </head>
 <body class="page">
@@ -23,7 +16,7 @@
     <header class="page-header">
         <!--В навигацию оборачиваем только главную одинаковую навигацию, если в футере другие ссылки, обернуть не можем-->
         <nav class="nav list">
-            <a href="#" class="logo"><span class="web-logo">Web</span><span class="studio-logo">Studio</span></a>
+            <a class="logo link" href="#" ><span class="web-logo">Web</span><span class="studio-logo">Studio</span></a>
             <ul class="site-nav list">
                 <li><a class="link" href="index.html">Студия</a></li>
                 <li><a class="link" href="#">Портфолио</a></li>
@@ -41,37 +34,38 @@
         <section class="section">
             <h1 class="hide">Проекты</h1> <!--Скрыть через CSS, либо тут он вообще не нужен?! А может через <div>?, Эх, надо больше практики 🧐-->
             <ul class="list">
-                <li><button type="button">Всё</button></li>
-                <li><button type="button">Веб-сайты</button></li>
-                <li><button type="button">Приложения</button></li>
-                <li><button type="button">Дизайн</button></li>
-                <li><button type="button">Маркетинг</button></li>
+                <li><button class="button" type="button">Всё</button></li>
+                <li><button class="button" type="button">Веб-сайты</button></li>
+                <li><button class="button" type="button">Приложения</button></li>
+                <li><button class="button" type="button">Дизайн</button></li>
+                <li><button class="button" type="button">Маркетинг</button></li>
             </ul>
     </section>
     <!--Секция Проектов и товаров-->
     <section class="section">
         <h2 class="hide">Список Проектов</h2> <!--Скрыть через CSS 👀-->
-        <ul>
-            <li><a href=""><img src="./images/tech.jpg" alt="ноутбук" width="370" height="294"></a><h3>Технокряк</h3><p>Веб-сайт</p></li>
-            <li><a href=""><img src="./images/new-orlean.jpg" alt="баскетбол" width="370" height="294"></a><h3>Постер New Orlean vs Golden Star</h3><p>Дизайн</p></li>
-            <li><a href=""><img src="./images/fish.jpg" alt="Лого-ресторана-рыбка" width="370" height="294"></a><h3>Ресторан Seafood</h3><p>Приложение</p></li>
-            <li><a href=""><img src="./images/headphones.jpg" alt="наушники" width="370" height="294"></a><h3>Проект Prime</h3><p>Маркетинг</p></li>
-            <li><a href=""><img src="./images/boxes.jpg" alt="коробки" width="370" height="294"></a><h3>Проект Boxes</h3><p>Приложение</p></li>
-            <li><a href=""><img src="./images/mac.jpg" alt="макинтош" width="370" height="294"></a><h3>Inspiration has no Borders</h3><p>Веб-сайт</p></li>
-            <li><a href=""><img src="./images/book.jpg" alt="книга" width="370" height="294"></a><h3>Издание Limited Edition</h3><p>Дизайн</p></li>
-            <li><a href=""><img src="./images/lable1.jpg" alt="лейба" width="370" height="294"></a><h3>Проект LAB</h3><p>Маркетинг</p></li>
-            <li><a href=""><img src="./images/notebook2.jpg" alt="ноутбук" width="370" height="294"></a><h3>Growing Business</h3><p>Приложение</p></li>
+        <ul class="list">
+            <li><a href=""><img src="./images/tech.jpg" alt="ноутбук" width="370" height="294"></a><h3 class="title-what-we-do">Технокряк</h3><p class="paragraph-what-we-do">Веб-сайт</p></li>
+            <li><a href=""><img src="./images/new-orlean.jpg" alt="баскетбол" width="370" height="294"></a><h3 class="title-what-we-do">Постер New Orlean vs Golden Star</h3><p class="paragraph-what-we-do">Дизайн</p></li>
+            <li><a href=""><img src="./images/fish.jpg" alt="Лого-ресторана-рыбка" width="370" height="294"></a><h3 class="title-what-we-do">Ресторан Seafood</h3><p class="paragraph-what-we-do">Приложение</p></li>
+            <li><a href=""><img src="./images/headphones.jpg" alt="наушники" width="370" height="294"></a><h3 class="title-what-we-do">Проект Prime</h3><p class="paragraph-what-we-do">Маркетинг</p></li>
+            <li><a href=""><img src="./images/boxes.jpg" alt="коробки" width="370" height="294"></a><h3 class="title-what-we-do">Проект Boxes</h3><p class="paragraph-what-we-do">Приложение</p></li>
+            <li><a href=""><img src="./images/mac.jpg" alt="макинтош" width="370" height="294"></a><h3 class="title-what-we-do">Inspiration has no Borders</h3><p class="paragraph-what-we-do">Веб-сайт</p></li>
+            <li><a href=""><img src="./images/book.jpg" alt="книга" width="370" height="294"></a><h3 class="title-what-we-do">Издание Limited Edition</h3><p class="paragraph-what-we-do">Дизайн</p></li>
+            <li><a href=""><img src="./images/lable1.jpg" alt="лейба" width="370" height="294"></a><h3 class="title-what-we-do">Проект LAB</h3><p class="paragraph-what-we-do">Маркетинг</p></li>
+            <li><a href=""><img src="./images/notebook2.jpg" alt="ноутбук" width="370" height="294"></a><h3 class="title-what-we-do">Growing Business</h3><p class="paragraph-what-we-do">Приложение</p></li>
         </ul>
     </section>
     </main>
     <!--Подвал-->
     <footer class="footer">
-        <a href="#">WebStudio</a>
-        <address>
+        <a class="link logo" href="#"><span class="web-logo">Web</span><span class="studio-logo">Studio</span></a>
+        <address class="address">
             <ul class="list">
-                <li><a href="https://goo.gl/maps/wcc3AqkiBzeYakqG6" target="_blank" rel="noopener noreferrer nofollow">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li><a class="map" href="https://goo.gl/maps/qvFhKNeTqDzLGV248" target="_blank"
+                        rel="noopener noreferrer nofollow">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>
