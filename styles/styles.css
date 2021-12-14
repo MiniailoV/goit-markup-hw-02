@@ -96,7 +96,8 @@ body {
   display: inline-block;
   border-radius: 4px;
 }
-.btn:hover {
+.btn:hover,
+.btn:focus {
   cursor: pointer;
   background-color: var(--blue-color);
   color: var(--white-color);
