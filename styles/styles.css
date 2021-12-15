@@ -148,6 +148,7 @@ body {
 
 /* PORTFOLIO */
 .section .title-what-we-do {
+  color: var(--black-font-color);
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
